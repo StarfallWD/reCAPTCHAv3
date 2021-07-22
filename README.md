@@ -3,7 +3,7 @@ This project aims to simplify implementing Google's reCAPTCHAv3 for regular .NET
 
 By Westley Bennett, with MOST knowledge and code "stolen" from Nihar Sarkar's StackOverflow post at https://stackoverflow.com/a/55390797/7308469
 
-I just put this all together, centralized the code as much as possible for portability, and genericized it as much as possible.
+I just put this all together, centralized, genericized, and simplified it as much as possible (as well as wrote a custom JsonConverter so that Google's ErrorCodes could be returned back to the programmer/user!).
 
 License - This software is released under the Creative Commons Attribution Share Alike 4.0 International, which can be found here:
 https://creativecommons.org/licenses/by-sa/4.0/legalcode
