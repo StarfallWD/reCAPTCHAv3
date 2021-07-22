@@ -16,7 +16,7 @@ Below are the steps needed for implementation:
 1.	Place the web service file reCAPTCHAv3Service.asmx in your project root
 2.	Place the reCAPTCHAv3.js file to be in the /js folder of your project. Create the folder if it doesn't exist
 3.	Add the following lines to whatever webpages you want to implement the reCAPTCHA on.
-	a.	In the markup, between the HEAD tags:
+    a.	In the markup, between the HEAD tags:
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://www.google.com/recaptcha/api.js?render=<%=Westley_Bennett.ReCAPTCHAv3Service.siteKey%>"></script>
         <script src="js/reCAPTCHAv3.js"></script>
