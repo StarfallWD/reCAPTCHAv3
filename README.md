@@ -49,3 +49,16 @@ Below are the steps needed for implementation:
                 lblStatus.ForeColor = System.Drawing.Color.Red;
             }
         }
+
+Here's a couple of the possible errors you may see in the error codes:
+
+**Bad Site Key**
+
+![image](https://user-images.githubusercontent.com/50267102/126704875-f7f1b0ba-6be0-4803-a378-de5fb7e224ea.png)
+
+**Bad Secret Key**
+
+![image](https://user-images.githubusercontent.com/50267102/126704920-d1bba323-808b-4713-9138-80a73fc1393d.png)
+
+All of Google's error codes can be found here:
+https://developers.google.com/recaptcha/docs/verify
