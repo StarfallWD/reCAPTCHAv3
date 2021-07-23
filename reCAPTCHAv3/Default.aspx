@@ -9,7 +9,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <!--These four lines below required to be within the form tags for reCAPTCHA to work correctly-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=<%=Westley_Bennett.ReCAPTCHAv3Service.siteKey%>"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=<%#Westley_Bennett.ReCAPTCHAv3Service.siteKey%>"></script>
     <script src="js/reCAPTCHAv3.js"></script>
 </head>
 <body>

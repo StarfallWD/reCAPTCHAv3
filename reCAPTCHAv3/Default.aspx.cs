@@ -13,7 +13,7 @@ namespace Westley_Bennett
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            DataBind();
         }
 
         protected void BtnLogin_Click(object sender, EventArgs e)
