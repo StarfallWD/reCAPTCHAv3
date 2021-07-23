@@ -19,12 +19,13 @@ Below are the steps needed for implementation:
 1. Add the following lines to whatever webpages you want to implement the reCAPTCHA on.
    1. In the markup, between the HEAD tags:
       1. <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      1. <script src="https://www.google.com/recaptcha/api.js?render=<%=Westley_Bennett.ReCAPTCHAv3Service.siteKey%>"></script>
+      1. <script src="https://www.google.com/recaptcha/api.js?render=<%#Westley_Bennett.ReCAPTCHAv3Service.siteKey%>"></script>
       1. <script src="js/reCAPTCHAv3.js"></script>
    1. In the markup, this line anywhere between the <form></form> tags:
       1. <asp:HiddenField ID="reCAPTCHAResponse" runat="server" />
    1. In the markup, at the following attribute into whatever button you want to trigger the reCAPTCHAv3 code into:
       1. OnClientClick="btnClick()"
+      2. In the Page_Load event, make sure that you're calling the DataBind() method to make sure that the SiteKey transfers from the server code to the JavaScript in the header properly.
 1. Replace the placeholders of "SiteKey" and "SecretKey" inside of the reCAPTCHAv3.js and reCAPTCHAv3Service.asmx with your own actual values
 1. Handle the resulting output however you want! By obtaining a ReCAPTCHAv3Service.ResponseToken object in your codebehind like shown in the
     below example, you can choose what is done with the variables that are returned by Google:
