@@ -23,8 +23,8 @@ namespace Westley_Bennett
         public static string Token = string.Empty;
         public static ResponseToken response = new ResponseToken();
         private static readonly string apiAddress = "https://www.google.com/recaptcha/api/siteverify";
-        public static readonly string siteKey = "SiteKey";
-        private static readonly string secretKey = "SecretKey";
+        public static readonly string siteKey = "6LfV_CohAAAAAAzRNZN2kjFMLjxofHytSQpSPatY";
+        private static readonly string secretKey = "6LfV_CohAAAAALVs1yCdkxrQGs2bHU6Mfncp1rGP";
 
         /// <summary>
         /// Sets the token value on the current WebService

@@ -1,0 +1,16 @@
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\reCAPTCHAv3.dll.config
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\reCAPTCHAv3.dll
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\reCAPTCHAv3.pdb
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\Newtonsoft.Json.dll
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\System.Net.Http.Formatting.dll
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\System.Web.Http.dll
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\System.Web.Http.WebHost.dll
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\Newtonsoft.Json.xml
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\System.Net.Http.Formatting.xml
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\System.Web.Http.xml
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\bin\System.Web.Http.WebHost.xml
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\obj\Debug\reCAPTCHAv3 Example.csprojAssemblyReference.cache
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\obj\Debug\reCAPTCHAv3 Example.csproj.CoreCompileInputs.cache
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\obj\Debug\reCAPTCHAv3 Example.csproj.CopyComplete
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\obj\Debug\reCAPTCHAv3.dll
+C:\Users\Heartkeeper\Documents\GitHub\reCAPTCHAv3\reCAPTCHAv3\obj\Debug\reCAPTCHAv3.pdb
