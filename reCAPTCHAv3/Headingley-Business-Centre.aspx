@@ -197,12 +197,15 @@ Beautifully designed buildings with bright, spacious and flexible floorplans to 
                 </div>
            <div class="contact-one">
                             <!-- CONTACT FORM-->
+                              <asp:HiddenField ID="reCAPTCHAResponse" runat="server" />
                             <div class="row justify-content-center">
-
+                           
                                 <div class="col-xl-8 col-lg-8 col-md-7 m-b30">
                                     <div class="contact-form-outer" >
+                                        
                                       
                                                 <h2 class="wt-title m-b30 text-center">Send Us A Message</h2>
+                                       
                                             <div class="row" >
                                                 <div class="col-lg-12 col-md-12">
                                                     <div class="form-group">
@@ -239,17 +242,19 @@ Beautifully designed buildings with bright, spacious and flexible floorplans to 
                                                      <asp:RequiredFieldValidator ID="rqMessage" CssClass="validate" ControlToValidate="txtMessage" runat="server" ErrorMessage="This field is required."></asp:RequiredFieldValidator>
                                                     </div>
                                                 </div>
-                                                
+                                              
+                                                <div class="col-md-12 text-center"><asp:Label ID="lblStatus" runat="server" Text=""></asp:Label></div>
                                                 <div class="col-md-12 text-center">
-                                                    <asp:Button ID="btnSubmit" CssClass="site-button bbtn" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+                                                    <asp:Button ID="btnSubmit" 
+       CssClass="site-button bbtn" runat="server" Text="Submit" OnClick="btnSubmit_Click"  OnClientClick="btnClick()" />
                                                     
                                                 </div>
                                                 
                                             </div>
                                        
                                     </div>
-                                </div>   
-
+                                </div>  
+                                  
                                 <!-- <div class="col-xl-5 col-lg-5 col-md-6 m-b30">
                                     <div class="contact-timing">
                                         
